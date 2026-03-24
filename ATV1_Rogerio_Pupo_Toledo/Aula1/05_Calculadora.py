@@ -1,5 +1,6 @@
-valor1 = float(input("Digite o primeiro valor: "))
-valor2 = float(input("Digite o segundo valor: "))
+valor1, valor2 = map(float, input("Digite dois valores separados por espaço: ").split())
+# valor1 = float(input("Digite o primeiro valor: "))
+# valor2 = float(input("Digite o segundo valor: "))
 soma = valor1 + valor2
 subtracao = valor1 - valor2
 multiplicacao = valor1 * valor2
